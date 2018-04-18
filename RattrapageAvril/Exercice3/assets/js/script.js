@@ -36,7 +36,7 @@ $(function () {
         } else {
             $.ajax({
                 // PARAMETRES
-                url: 'login.php', // On récupère l'action (ici login.php)
+                url: '', // 
                 type: 'POST', // On récupère la méthode (post)
                 data: {
                     marque: marque,
